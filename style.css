@@ -49,7 +49,7 @@ body {
   background-color: #ababab;
 }
 .weather-body {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -100,4 +100,18 @@ body {
 .weather-details .text span {
   font-size: 20px;
   font-weight: 700;
+}
+
+/*loacation not found */
+
+.location-not-found {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.location-not-found img {
+  margin-top: 30px;
+  width: 90%;
 }
